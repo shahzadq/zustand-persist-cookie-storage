@@ -1,5 +1,5 @@
 # zustand-persist-cookie-storage
-A simple package created to allow persisting a sustand store to a cookie 🙂. The package will automatically apply an expiry for the cookie as far in the future as it can.
+A simple package created to allow persisting a sustand store to a cookie 🙂. The package will automatically apply an expiry for the cookie as far in the future as it can (you can override this if you want).
 
 ## Usage
 1. Import using `import CookieStorage from 'zustand-persist-cookie-storage'`.
