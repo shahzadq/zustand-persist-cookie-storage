@@ -28,4 +28,4 @@ export const usePersistedZustandStore = create(
 ```
 
 ## Cookie Options
-The type of cookie options should match the `CookieAttributes` from `js-cookie` ([js-cookie](https://www.npmjs.com/package/@types/js-cookie)).
+The type of cookie options should match the `CookieAttributes` from `js-cookie` (see [js-cookie](https://www.npmjs.com/package/@types/js-cookie) for more info).
