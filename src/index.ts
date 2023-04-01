@@ -4,7 +4,7 @@ import type { CookieAttributes } from 'js-cookie';
 import Cookies from 'js-cookie';
 
 const CookieStorage: (options?: CookieAttributes) => StateStorage = (options?: CookieAttributes) => {
-  const o: CookieAttributes = { ...options, expires: new Date(new Date().setFullYear(9999)) };
+  const o: CookieAttributes = { expires: new Date(new Date().setFullYear(9999)), ...options };
   return {
     getItem: async (name: string): Promise<string | null> => {
       const c = Cookies.get(name);
