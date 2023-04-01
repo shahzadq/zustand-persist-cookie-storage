@@ -1,14 +1,18 @@
 {
   "name": "zustand-persist-cookie-storage",
-  "version": "1.1.0",
-  "private": true,
+  "version": "1.1.1",
+  "description": "Solution to persist a Zustand store in a cookie.",
+  "keywords": ["javascript", "typescript", "react", "zustand", "cookie"],
+  "author": "ShahzadQ",
+  "license": "MIT",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
   "scripts": {
-    "build": "ncc build ./src/index.ts -o ./dist/ --minify --no-cache --no-source-map-register"
+    "release": "ncc build ./src/index.ts -o ./dist/ --minify --no-cache --no-source-map-register",
+    "build": "pnpm release"
   },
   "devDependencies": {
     "@types/js-cookie": "^3.0.3",
