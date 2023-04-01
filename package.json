@@ -5,6 +5,10 @@
   "keywords": ["javascript", "typescript", "react", "zustand", "cookie"],
   "author": "ShahzadQ",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShahzadQ/zustand-persist-cookie-storage"
+  },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
