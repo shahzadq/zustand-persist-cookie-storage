@@ -21,9 +21,8 @@
     "dist"
   ],
   "scripts": {
-    "release": "ncc build ./src/index.ts -o ./dist/ --minify --no-cache --no-source-map-register",
-    "build": "pnpm release",
-    "postinstall": "pnpm install && pnpm run build"
+    "build": "ncc build ./src/index.ts -o ./dist/ --minify --no-cache --no-source-map-register",
+    "postinstall": "pnpm run build"
   },
   "devDependencies": {
     "@types/js-cookie": "^3.0.3",
