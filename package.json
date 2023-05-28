@@ -1,6 +1,6 @@
 {
   "name": "zustand-persist-cookie-storage",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Solution to persist a Zustand store in a cookie.",
   "keywords": [
     "javascript",
