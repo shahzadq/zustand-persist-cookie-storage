@@ -23,7 +23,7 @@
   "scripts": {
     "release": "ncc build ./src/index.ts -o ./dist/ --minify --no-cache --no-source-map-register",
     "build": "pnpm release",
-    "install": "pnpm run build"
+    "install": "pnpm install && pnpm run build"
   },
   "devDependencies": {
     "@types/js-cookie": "^3.0.3",
