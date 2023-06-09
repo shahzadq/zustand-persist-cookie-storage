@@ -1,6 +1,6 @@
 {
   "name": "zustand-persist-cookie-storage",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Solution to persist a Zustand store in a cookie.",
   "keywords": [
     "javascript",
@@ -21,7 +21,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "ncc build ./src/index.ts -o ./dist/ --minify --no-cache --no-source-map-register"
+    "build": "ncc build ./src/index.ts -o ./dist/ --minify --no-cache --no-source-map-register",
+    "publish": "pnpm build"
   },
   "devDependencies": {
     "@types/js-cookie": "^3.0.3",
