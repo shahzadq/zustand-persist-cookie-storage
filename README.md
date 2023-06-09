@@ -1,6 +1,11 @@
 # zustand-persist-cookie-storage
 A simple package created to allow persisting a zustand store to a cookie 🙂. The package will automatically apply an expiry for the cookie as far in the future as possible (you can override this if you want).
 
+## Install
+```shell
+pnpm i --save zustand-persist-cookie-storage
+```
+
 ## Usage
 1. Import the package using `import CookieStorage from 'zustand-persist-cookie-storage'`.
 2. Import `createJSONStorage` from zustand using `import { createJSONStorage } from 'zustand/middleware'`.
