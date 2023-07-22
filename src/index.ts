@@ -3,7 +3,9 @@ import type { CookieAttributes } from "js-cookie";
 
 import Cookies from "js-cookie";
 
-const CookieStorage: (options?: CookieAttributes) => StateStorage = (
+type Options = CookieAttributes;
+
+const CookieStorage: (options?: Options) => StateStorage = (
   options = {
     expires: new Date(new Date().setFullYear(9999)),
   }
