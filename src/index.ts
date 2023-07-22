@@ -1,5 +1,5 @@
-import { StateStorage } from "zustand/middleware";
-import { CookieAttributes } from "js-cookie";
+import type { StateStorage } from "zustand/middleware";
+import type { CookieAttributes } from "js-cookie";
 
 import Cookies from "js-cookie";
 
