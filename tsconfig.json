@@ -1,12 +1,14 @@
 {
   "compilerOptions": {
     "target": "es2019",
+    "module": "CommonJS",
     "moduleResolution": "node",
     "strict": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "skipLibCheck": false,
-    "declaration": true
+    "declaration": true,
+    "outDir": "dist"
   },
   "exclude": ["node_modules", "dist"]
 }
