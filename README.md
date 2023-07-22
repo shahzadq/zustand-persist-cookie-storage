@@ -3,7 +3,8 @@ A simple package created to allow persisting a zustand store to a cookie 🙂. T
 
 ## Install
 ```shell
-pnpm i --save zustand-persist-cookie-storage
+pnpm add zustand-persist-cookie-storage
+pnpm add -D @types/js-cookie
 ```
 
 ## Usage
