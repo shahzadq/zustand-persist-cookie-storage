@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "build": "ncc build ./src/index.ts -o ./dist/ --minify --no-cache --no-source-map-register",
-    "publish": "pnpm build && pnpm publish"
+    "prepublish": "pnpm build"
   },
   "devDependencies": {
     "@types/js-cookie": "^3.0.3",
