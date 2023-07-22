@@ -1,11 +1,9 @@
-import type { StateStorage } from "zustand/middleware";
-import type { CookieAttributes } from "js-cookie";
+import { StateStorage } from "zustand/middleware";
+import { CookieAttributes } from "js-cookie";
 
 import Cookies from "js-cookie";
 
-type Options = CookieAttributes;
-
-const CookieStorage: (options?: Options) => StateStorage = (
+const CookieStorage: (options?: CookieAttributes) => StateStorage = (
   options = {
     expires: new Date(new Date().setFullYear(9999)),
   }
