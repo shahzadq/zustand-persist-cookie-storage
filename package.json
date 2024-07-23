@@ -1,7 +1,7 @@
 {
   "name": "zustand-persist-cookie-storage",
-  "version": "1.2.12",
-  "description": "Solution to persist a Zustand store in a cookie.",
+  "version": "1.2.13",
+  "description": "Solution to persist a zustand store in a cookie.",
   "keywords": [
     "javascript",
     "typescript",
@@ -9,11 +9,11 @@
     "zustand",
     "cookie"
   ],
-  "author": "ShahzadQ",
+  "author": "shahzadq",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ShahzadQ/zustand-persist-cookie-storage"
+    "url": "https://github.com/shahzadq/zustand-persist-cookie-storage"
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -21,17 +21,17 @@
     "dist"
   ],
   "scripts": {
-    "build": "ncc build ./src/index.ts -o ./dist/ --minify --no-cache --no-source-map-register",
+    "build": "tsc",
     "prepublish": "pnpm build"
   },
   "devDependencies": {
-    "@types/js-cookie": "^3.0.3",
-    "@vercel/ncc": "^0.36.1",
-    "react": "^18.2.0",
-    "typescript": "^4.9.5"
+    "@types/js-cookie": "^3.0.6",
+    "@types/node": "^20.14.12",
+    "react": "^18.3.1",
+    "typescript": "^5.5.4"
   },
   "dependencies": {
-    "js-cookie": "^3.0.1",
-    "zustand": "^4.3.3"
+    "js-cookie": "^3.0.5",
+    "zustand": "^4.5.4"
   }
 }
